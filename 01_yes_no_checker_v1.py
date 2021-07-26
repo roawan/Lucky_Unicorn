@@ -1,7 +1,6 @@
 # ask user if they've played before
 show_instructions = input("Have you played before").strip().lower()
 # if they say yes, continue program
-<<<<<<< HEAD
 if show_instructions == "y" or show_instructions == "yes":
     print("program continues")
 
