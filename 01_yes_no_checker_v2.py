@@ -7,3 +7,7 @@ if show_instructions == "y" or show_instructions == "yes":
 # if no, display instructions then continue
 elif show_instructions == "no" or show_instructions == "n":
     print("show instructions")
+
+# unexpected response
+else:
+    print("Please answer yes or no")
